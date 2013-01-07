@@ -1,1 +1,101 @@
-Coming soon...
+<!doctype html>  
+
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="de" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Geekstammtisch</title>
+  <meta name="description" content="geekstammtisch podcast" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-language" content="de-DE" id="language" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="author" content="tisba" />
+  <link rel="alternate" type="application/rss+xml" title="iTunes Feed" href="http://geekstammtisch.de/episodes.m4a.rss" />
+  <link rel="alternate" type="application/rss+xml" title="Legacy Feed" href="http://geekstammtisch.de/episodes.mp3.rss" />
+
+  <link href="stylesheets/styles.css" rel="stylesheet" type="text/css" />
+
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="span3">
+        <img src="images/geekstammtisch-header-image.png"
+          class="img-polaroid"
+          width="300px"
+          height="300px"
+          id="header-image">
+        <div class="sidebar-nav">
+          <ul class="nav nav-list" id="episode-list">
+            <li class="nav-header">Episoden</li>
+          </ul>
+        </div><!--/.well -->
+      </div><!--/span-->
+      <div class="span9">
+        <h2>Willkommen beim Geekstammtisch
+          <a class="btn btn-larg btn-info" id="subscribe-in-itunes"
+            href="http://itunes.apple.com/de/podcast/geekstammtisch/id587071768"
+            title="In iTunes abonnieren">In iTunes abonnieren</a>
+        </h2>
+        <div class="well">
+          <p>
+          Der Geekstammtisch ist ein regelmäßig abgehaltener Gesprächs-Podcast mit gemütlicher Wohnzimmeratmosphäre
+          rund um Web-Entwicklung, Ruby/Rails und die Kölner Entwicklerszene.
+          </p>
+
+          <p>
+          Der Geekstammtisch ist eine Produktion aus Spaß an der Freude von Sebastian
+          (<a href="https://twitter.com/tisba">@tisba</a>) und Dirk (<a href="https://twitter.com/railsbros_dirk">@railsbros_dirk</a>), aufgezeichnet wird auf dem Sofa des
+          <a href="http://home-office-cologne.de" title="Home Office Cologne">Home Office Cologne</a>.
+          </p>
+
+          <p>Wir haben für euch diverse Feeds zum abonnieren im Angebot:</p>
+
+          <ul>
+            <li><a href="http://itunes.apple.com/de/podcast/geekstammtisch/id587071768" title="In iTunes abonnieren">iTunes</a>,</li>
+            <li><a href="http://geekstammtisch.de/episodes.m4a.rss">Apple-optimiertes M4A</a> oder notfalls auch den</li>
+            <li><a href="http://geekstammtisch.de/episodes.mp3.rss">Legacy-Feed</a> und für die ganz nerdigen unter euch den</li>
+            <li><a href="http://bitlove.org/tisba/gst/feed">Torrent-Feed</a> (AAC).</li>
+          </ul>
+
+          <p>Feedback gerne via <a href="https://twitter.com/geekstammtisch">@geekstammtisch</a>.</p>
+        </div>
+
+        <div class="well">
+          <h2><span id="title">Kein Stammtisch ohne Javascript mein Freund!</span></h2>
+          <span id="audioplayer"></span>
+          <div id="shownotes">shownotes</div>
+        </div>
+
+      </div><!--/span-->
+    </div>
+
+    <hr>
+
+    <footer id="footer">
+      <p>
+        <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">cc-by-nc-sa</a> &bull;
+        <a href="javascript:showimpressum()">Impressum</a> &bull;
+        <a href="https://github.com/m4p/fanboys-IGOR">heavily inspired by IGOR</a> &bull;
+        <a href="http://bootswatch.com/slate/">Slate</a> Template by <a href="http://thomaspark.me/">Thomas Park</a>
+      </p>
+    </footer>
+
+  </div><!--/.fluid-container-->
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/libs/modernizr-1.6.min.js"></script>
+  <script src="js/audiojs/audio.min.js"></script>
+</body>
+</html>
